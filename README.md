@@ -35,7 +35,3 @@ The code generates plots that showcase the streamlines passing through an arbitr
 ## Contributions
 
 Feel free to contribute by suggesting improvements, providing explanations, or enhancing the visualization techniques used in the code.
-
-## License
-
-This code is licensed under the [MIT License](LICENSE).

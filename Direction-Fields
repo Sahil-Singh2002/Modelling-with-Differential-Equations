@@ -1,0 +1,36 @@
+# Direction Field, Solution Curves, and Symbolic Solution
+
+This repository contains Python code that demonstrates how to create a direction field, plot solution curves, and obtain the symbolic solution for a given first-order ordinary differential equation (ODE).
+
+## Code Description
+
+The provided code performs the following tasks:
+
+1. **Direction Field:**
+
+    The code generates a direction field for the given ODE using the `matplotlib.pyplot.quiver()` function. It computes the direction vectors at various points in the t-x plane using the given ODE equation. The vectors are normalized to provide the correct direction.
+
+2. **Solution Curves:**
+
+    The code uses the `scipy.integrate.odeint()` function to calculate solution curves for the ODE. It iterates over different initial conditions to compute the trajectories over a specified time range. The solution curves are then plotted on the direction field plot using black lines.
+
+3. **Symbolic Solution:**
+
+    The code uses `sympy` to find the symbolic solution to the given ODE. It uses the `dsolve()` function to obtain the symbolic expression for `x(t)` that satisfies the ODE.
+
+## How to Use
+
+1. Make sure you have Python and the required libraries (`numpy`, `matplotlib`, `scipy`, `sympy`) installed.
+2. Copy and paste the provided code into a Python environment, such as a script or a Jupyter Notebook.
+3. Run the code to generate the direction field, solution curves, and symbolic solution.
+
+## Example Output
+
+The code generates a plot that includes the direction field (represented by red arrows) and solution curves (black lines) for the given ODE. The plot title provides the ODE equation. Additionally, the symbolic solution to the ODE is printed in the console.
+
+The plot gives an insight into the behaviour of the ODE and its solution curves, showcasing the dynamics of the system.
+
+## Contributions
+
+Feel free to contribute by suggesting improvements, adding more ODE examples, or providing additional explanations for beginners.
+

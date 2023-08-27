@@ -51,7 +51,7 @@ Lastly, the symbolic solution of the differential equation is obtained using Sym
 
 ## Conclusion
 
-In these three projects—Unsteady_Flow, Vector_Field, and Plotting_direction_fields—we have explored diverse aspects of dynamical systems and fluid flow phenomena using Python. Each project leverages a combination of libraries like `NumPy`, `Matplotlib` and `SymPy` to provide insightful visualizations and analyses.
+In these three projects: Unsteady_Flow, Vector_Field, and Plotting_direction_fields. We have explored diverse aspects of dynamical systems and fluid flow phenomena using Python. Each project leverages a combination of libraries like `NumPy`, `Matplotlib` and `SymPy` to provide insightful visualizations and analyses.
 
 The *Unsteady_Flow* project delves into unsteady fluid flow behaviour. It covers streamlines, pathlines, and streaklines, showcasing how fluid particles move through time. By using the power of numerical computation and visualization, we gain a deeper understanding of fluid dynamics.
 

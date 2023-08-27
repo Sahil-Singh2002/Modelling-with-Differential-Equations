@@ -8,7 +8,7 @@ $$\textbf{Streamline Equation}$$
 
 The provided code performs the following tasks:
 
-The first part displays streamlines for a given velocity field defined by the functions `velocity_components(x, y)` using the `ax.streamplot()` function.
+The first part displays streamlines for a given velocity field defined by the functions `velocity_components(x,y)` using the `ax.streamplot()` function.
 
 $$\textbf{Sketch Streamlines for Different Times}$$
 
@@ -47,7 +47,7 @@ This section generates a direction field for the ODE and overlays solution curve
 
 $$\textbf{Symbolic Solution}$$
 
-Lastly, the symbolic solution of the differential equation is obtained using SymPy's `dsolve() function. The solution is printed for reference.
+Lastly, the symbolic solution of the differential equation is obtained using SymPy's `dsolve()` function. The solution is printed for reference.
 
 ## Conclusion
 

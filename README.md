@@ -4,21 +4,21 @@
 
 This project focuses on visualizing unsteady flow phenomena using Python libraries such as `NumPy`, `Matplotlib`, and `SciPy`. It includes the following components:
 
-$$\textbf{Streamline Equation}$$
+$$\textbf{Part (a): Streamline Equation}$$
 
 The provided code performs the following tasks:
 
 The first part displays streamlines for a given velocity field defined by the functions `velocity_components(x,y)` using the `ax.streamplot()` function.
 
-$$\textbf{Sketch Streamlines for Different Times}$$
+$$\textbf{Part (b): Sketch Streamlines for Different Times}$$
 
 The second part illustrates how streamlines evolve over time by plotting them for various time instances. This is achieved by adjusting the coordinates based on time and recalculating the velocity components.
 
-$$\textbf{Pathlines (Parabolic Paths)}$$
+$$\textbf{Part (c): Pathlines (Parabolic Paths)}$$
 
 The third part plots pathlines that represent trajectories of fluid particles over time. The pathline equations are calculated using initial positions and the velocity field functions.
 
-$$\textbf{Streakline at t = 1}$$
+$$\textbf{Part (d): Streakline at t = 1}$$
 
 The final part visualizes a streakline at a specific time *t = 1* along with the corresponding pathline and the release point. It uses the velocity field and adjusts positions based on time.
 
